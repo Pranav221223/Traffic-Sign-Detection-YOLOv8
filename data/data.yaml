@@ -1,0 +1,12 @@
+# dataset root directory
+path: /signdetectio/data # <--- CHANGE THIS TO THE ACTUAL PATH
+
+# Train and val datasets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path1/to/imgs, path2/to/imgs]
+train: data/train # Train images are in 'your_dataset_root/train/images'
+val: data/test  # Validation images are in 'your_dataset_root/test/images'
+
+# Classes
+nc: 15  # Number of classes
+
+# Class names
+names: ['Green Light', 'Red Light', 'Speed Limit 10', 'Speed Limit 100', 'Speed Limit 110', 'Speed Limit 120', 'Speed Limit 20', 'Speed Limit 30', 'Speed Limit 40', 'Speed Limit 50', 'Speed Limit 60', 'Speed Limit 70', 'Speed Limit 80', 'Speed Limit 90', 'Stop']
